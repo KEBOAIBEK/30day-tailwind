@@ -1,21 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body>
-    <div class="flex flex-col justify-center items-center gap-4">
-        <a href="/1task.html" class="text-blue-500 text-lg">1task</a>
-        <a href="/2task.html">2task</a>
-        <a href="/3task.html">3task</a>
-        <a href="/4task.html">4task</a>
-        <a href="/5task.html">5task</a>
-        <a href="/6task.html">6task</a>
-        <a href="/7task.html">7task</a>
-    </div>
+    <div class="grid grid-cols-4  p-10 gap-4">
+        
        
+        <div class="rounded-xl border">
+            <a href="/1task.html">
+                <div>
+                    <img class="rounded-t-xl" src="/img/1task.webp" alt="1task">
+                    <button class=" rounded-b-xl h-10 w-full bg-slate-300">Click to see</button>
+                </div>
+            </a>
+        </div>
+        <div class="rounded-xl border">
+            <a href="/2task.html">
+                <div>
+                    <img class="rounded-t-xl" src="/img/2task.webp" alt="1task">
+                    <button class="w-full bg-slate-300 rounded-b-xl h-10">Click to see</button>
+                </div>
+            </a>
+        </div>
+    </div>
+
 </body>
+
 </html>
